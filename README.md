@@ -2,7 +2,7 @@
 
 Joint optimization of feature selection and classifier hyperparameters for medical tabular datasets using NSGA-II (DEAP).
 
-GitHub: [Project Repository](https://github.com/royxlead/-multi-objective-evolutionary-feature-selection-python.git)
+GitHub: [Project Repository](https://github.com/royxlead/multi-objective-evolutionary-feature-selection-python.git)
 
 ## What This Project Does
 
