@@ -1,0 +1,32 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test artifacts
+.pytest_cache/
+
+# Generated experiment artifacts (keep placeholders only)
+# results/*
+# !results/.gitkeep
+# plots/*
+# !plots/.gitkeep
+# data/raw/*
+# !data/raw/.gitkeep
+# data/processed/*
+# !data/processed/.gitkeep
+
+# Local editor artifacts
+.vscode/*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+2026-04-16 12:04:42,719 | INFO | Starting experiment with configuration: ExperimentConfig(seed=42, test_size=0.2, cv_folds=3, n_jobs=1, population_size=16, generations=4, crossover_prob=0.9, mutation_prob=0.3, mask_mutation_prob=0.02, hyper_mutation_prob=0.3, enable_feature_expansion=True, feature_space_max=250, enable_xgboost=False, significance_alpha=0.05, significance_cv_splits=2, significance_cv_repeats=1, significance_min_pairs=2, permutation_repeats=10, permutation_top_k=10, quick_mode=True, dataset_limit=1, project_root=WindowsPath('D:/Coding/s'), data_dir=WindowsPath('data'), plots_dir=WindowsPath('plots'), results_dir=WindowsPath('results'), rf_bounds=RandomForestBounds(n_estimators=(60, 400), max_depth=(2, 24), min_samples_split=(2, 20), min_samples_leaf=(1, 10), max_features=(0.15, 1.0)), svm_bounds=SVMBounds(c_log10=(-3.0, 3.0), gamma_log10=(-4.0, 1.0)), xgb_bounds=XGBoostBounds(n_estimators=(80, 450), max_depth=(2, 12), learning_rate=(0.01, 0.3), subsample=(0.5, 1.0), colsample_bytree=(0.4, 1.0)))
+2026-04-16 12:04:42,760 | INFO | Loaded Wisconsin Breast Cancer dataset with shape (569, 30)
+2026-04-16 12:04:42,761 | INFO | Downloading Pima Diabetes dataset from https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv
+2026-04-16 12:04:43,344 | INFO | Loaded Pima Diabetes dataset with shape (768, 8)
+2026-04-16 12:04:43,344 | INFO | Downloading Heart Disease dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data
+2026-04-16 12:04:46,962 | INFO | Loaded Heart Disease dataset with shape (303, 13)
+2026-04-16 12:04:46,963 | INFO | Dataset limit applied: processing first 1 dataset(s)
+2026-04-16 12:04:46,963 | INFO | ================================================================================
+2026-04-16 12:04:46,964 | INFO | Processing dataset: Wisconsin Breast Cancer
+2026-04-16 12:04:47,033 | INFO | Expanded Wisconsin Breast Cancer feature space from 30 to 250 columns using train-only fitting
+2026-04-16 12:24:56,672 | INFO | Starting experiment with configuration: ExperimentConfig(seed=42, test_size=0.2, cv_folds=5, n_jobs=-1, population_size=4, generations=1, crossover_prob=0.9, mutation_prob=0.3, mask_mutation_prob=0.02, hyper_mutation_prob=0.3, enable_feature_expansion=False, feature_space_max=250, enable_xgboost=False, significance_alpha=0.05, significance_cv_splits=5, significance_cv_repeats=3, significance_min_pairs=8, permutation_repeats=30, permutation_top_k=20, quick_mode=False, dataset_limit=1, project_root=WindowsPath('D:/Coding/s'), data_dir=WindowsPath('data'), plots_dir=WindowsPath('plots'), results_dir=WindowsPath('results'), rf_bounds=RandomForestBounds(n_estimators=(60, 400), max_depth=(2, 24), min_samples_split=(2, 20), min_samples_leaf=(1, 10), max_features=(0.15, 1.0)), svm_bounds=SVMBounds(c_log10=(-3.0, 3.0), gamma_log10=(-4.0, 1.0)), xgb_bounds=XGBoostBounds(n_estimators=(80, 450), max_depth=(2, 12), learning_rate=(0.01, 0.3), subsample=(0.5, 1.0), colsample_bytree=(0.4, 1.0)))
+2026-04-16 12:24:56,721 | INFO | Loaded Wisconsin Breast Cancer dataset with shape (569, 30)
+2026-04-16 12:24:56,773 | INFO | Loaded cached Pima Diabetes dataset from D:\Coding\s\data\raw\pima_diabetes.csv
+2026-04-16 12:24:56,789 | INFO | Loaded Pima Diabetes dataset with shape (768, 8)
+2026-04-16 12:24:56,830 | INFO | Loaded cached Heart Disease dataset from D:\Coding\s\data\raw\heart_disease_cleveland.csv
+2026-04-16 12:24:56,844 | INFO | Loaded Heart Disease dataset with shape (303, 13)
+2026-04-16 12:24:56,845 | INFO | Dataset limit applied: processing first 1 dataset(s)
+2026-04-16 12:24:56,846 | INFO | ================================================================================
+2026-04-16 12:24:56,847 | INFO | Processing dataset: Wisconsin Breast Cancer
+2026-04-16 12:24:56,859 | INFO | Feature expansion disabled for Wisconsin Breast Cancer; using 30 original features
+2026-04-16 12:25:17,906 | INFO | [Wisconsin Breast Cancer] Gen 1 | acc_max=0.9604 acc_mean=0.9066 feat_min=9
+2026-04-16 12:26:52,182 | INFO | Running baseline: PCA + RandomForest
+2026-04-16 12:27:05,040 | INFO | Running baseline: RFE + RandomForest
+2026-04-16 12:27:24,617 | INFO | Running baseline: RF importance + RandomForest
+2026-04-16 12:27:30,335 | INFO | Running baseline: Grid Search RF
+2026-04-16 12:31:25,370 | INFO | Running baseline: Random Search RF
+2026-04-16 12:34:05,053 | INFO | Experiment completed successfully.
+2026-04-16 12:34:05,055 | INFO | Results saved to: D:\Coding\s\results
+2026-04-16 12:34:05,057 | INFO | Plots saved to: D:\Coding\s\plots
+2026-04-16 13:03:10,722 | INFO | Starting experiment with configuration: ExperimentConfig(seed=42, test_size=0.2, cv_folds=2, n_jobs=1, population_size=4, generations=1, crossover_prob=0.9, mutation_prob=0.3, mask_mutation_prob=0.02, hyper_mutation_prob=0.3, enable_feature_expansion=False, feature_space_max=250, enable_xgboost=False, significance_alpha=0.05, significance_cv_splits=2, significance_cv_repeats=1, significance_min_pairs=2, permutation_repeats=2, permutation_top_k=5, quick_mode=False, dataset_limit=1, project_root=WindowsPath('D:/Coding/s'), data_dir=WindowsPath('data'), plots_dir=WindowsPath('plots'), results_dir=WindowsPath('results'), rf_bounds=RandomForestBounds(n_estimators=(60, 400), max_depth=(2, 24), min_samples_split=(2, 20), min_samples_leaf=(1, 10), max_features=(0.15, 1.0)), svm_bounds=SVMBounds(c_log10=(-3.0, 3.0), gamma_log10=(-4.0, 1.0)), xgb_bounds=XGBoostBounds(n_estimators=(80, 450), max_depth=(2, 12), learning_rate=(0.01, 0.3), subsample=(0.5, 1.0), colsample_bytree=(0.4, 1.0)))
+2026-04-16 13:03:10,733 | INFO | Loaded Wisconsin Breast Cancer dataset with shape (569, 30)
+2026-04-16 13:03:10,733 | INFO | Dataset limit applied: processing first 1 dataset(s)
+2026-04-16 13:03:10,734 | INFO | ================================================================================
+2026-04-16 13:03:10,734 | INFO | Processing dataset: Wisconsin Breast Cancer
+2026-04-16 13:03:10,737 | INFO | Feature expansion disabled for Wisconsin Breast Cancer; using 30 original features
+2026-04-16 13:03:12,170 | INFO | [Wisconsin Breast Cancer] Gen 1 | acc_max=0.9605 acc_mean=0.9033 feat_min=9
+2026-04-16 13:03:14,741 | INFO | Running baseline: PCA + RandomForest
+2026-04-16 13:03:25,650 | INFO | Running baseline: RFE + RandomForest
+2026-04-16 13:03:42,839 | INFO | Running baseline: RF importance + RandomForest
+2026-04-16 13:03:45,551 | INFO | Running baseline: Grid Search RF
+2026-04-16 13:07:47,604 | INFO | Running baseline: Random Search RF
+2026-04-16 13:08:33,317 | INFO | Experiment completed successfully.
+2026-04-16 13:08:33,317 | INFO | Results saved to: D:\Coding\s\results
+2026-04-16 13:08:33,318 | INFO | Plots saved to: D:\Coding\s\plots

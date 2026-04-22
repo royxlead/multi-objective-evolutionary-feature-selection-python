@@ -1,0 +1,2 @@
+accuracy,n_features,selected_indices,classifier,hyperparameters
+0.9604586907798129,9,"[7, 8, 10, 16, 19, 20, 21, 22, 24]",random_forest,"{'classifier': 'random_forest', 'n_estimators': 132, 'max_depth': 24, 'min_samples_split': 3, 'min_samples_leaf': 4, 'max_features': 0.5714098896257468}"

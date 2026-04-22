@@ -1,0 +1,6 @@
+dataset,reference_method,comparison_method,n_pairs,enough_pairs,mean_diff_reference_minus_candidate,ci95_low,ci95_high,t_statistic,t_p_value,wilcoxon_statistic,wilcoxon_p_value,raw_p_value,holm_adjusted_p_value,cohens_d,significant_at_alpha
+Wisconsin Breast Cancer,NSGA-II (DEAP),PCA + RandomForest,2.0,True,0.0021736610248086485,-0.1373942613902797,0.14174158343989698,0.1978891820580412,0.8756267108250346,1.0,1.0,1.0,1.0,0.13992878255670022,False
+Wisconsin Breast Cancer,NSGA-II (DEAP),RFE + RandomForest,2.0,True,0.0,0.0,0.0,,,0.0,1.0,1.0,1.0,0.0,False
+Wisconsin Breast Cancer,NSGA-II (DEAP),RF Importance + RandomForest,2.0,True,-0.004395625627946542,-0.004518376659094508,-0.004272874596798576,-454.99999999951734,0.001399162082071232,0.0,0.5,0.5,1.0,-321.7335854395378,False
+Wisconsin Breast Cancer,NSGA-II (DEAP),Grid Search RF,2.0,True,-0.004395625627946542,-0.004518376659094508,-0.004272874596798576,-454.99999999951734,0.001399162082071232,0.0,0.5,0.5,1.0,-321.7335854395378,False
+Wisconsin Breast Cancer,NSGA-II (DEAP),Random Search RF,2.0,True,0.008800911971558856,-0.04729630926300158,0.06489813320611929,1.9934354485776862,0.2960052599669279,0.0,0.5,0.5,1.0,1.4095717235469292,False

@@ -1,0 +1,105 @@
+{
+  "config": {
+    "seed": 42,
+    "test_size": 0.2,
+    "cv_folds": 2,
+    "n_jobs": 1,
+    "population_size": 4,
+    "generations": 1,
+    "crossover_prob": 0.9,
+    "mutation_prob": 0.3,
+    "mask_mutation_prob": 0.02,
+    "hyper_mutation_prob": 0.3,
+    "enable_feature_expansion": false,
+    "feature_space_max": 250,
+    "enable_xgboost": false,
+    "significance_alpha": 0.05,
+    "significance_cv_splits": 2,
+    "significance_cv_repeats": 1,
+    "significance_min_pairs": 2,
+    "permutation_repeats": 2,
+    "permutation_top_k": 5,
+    "quick_mode": false,
+    "dataset_limit": 1,
+    "project_root": "D:\\Coding\\s",
+    "data_dir": "data",
+    "plots_dir": "plots",
+    "results_dir": "results",
+    "rf_bounds": {
+      "n_estimators": [
+        60,
+        400
+      ],
+      "max_depth": [
+        2,
+        24
+      ],
+      "min_samples_split": [
+        2,
+        20
+      ],
+      "min_samples_leaf": [
+        1,
+        10
+      ],
+      "max_features": [
+        0.15,
+        1.0
+      ]
+    },
+    "svm_bounds": {
+      "c_log10": [
+        -3.0,
+        3.0
+      ],
+      "gamma_log10": [
+        -4.0,
+        1.0
+      ]
+    },
+    "xgb_bounds": {
+      "n_estimators": [
+        80,
+        450
+      ],
+      "max_depth": [
+        2,
+        12
+      ],
+      "learning_rate": [
+        0.01,
+        0.3
+      ],
+      "subsample": [
+        0.5,
+        1.0
+      ],
+      "colsample_bytree": [
+        0.4,
+        1.0
+      ]
+    }
+  },
+  "runtime_seconds": 322.46731409999484,
+  "datasets_processed": [
+    "Wisconsin Breast Cancer"
+  ],
+  "environment": {
+    "timestamp_utc": "2026-04-16T07:38:33.189809+00:00",
+    "python_version": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"
+  },
+  "package_versions": {
+    "numpy": "2.4.3",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.8.0",
+    "deap": "1.4.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "xgboost": "not-installed"
+  }
+}
