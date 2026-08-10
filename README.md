@@ -241,7 +241,7 @@ NSGA-II (Deb et al., 2002) is one of the most cited multi-objective evolutionary
 
 **Connection to related work:** The unsupervised confidence metric in [Unsupervised Confidence Estimation
 ](https://github.com/royxforge/unsupervised-confidence-estimation) and the drift monitoring in [Production Drift Detection
-](https://github.com/royxforge/production-drift-detection) both operate on model outputs. Feature selection determines what goes into the model. These three projects form a coherent pipeline: select features carefully, monitor for drift, and quantify uncertainty in deployment. [UniTSFM](https://github.com/royxforge/uniftsm) extends the same philosophy to time series foundation models, where the 15 meta-features used for model selection are a forecasting-specific analog of the feature economy question studied here.
+](https://github.com/royxforge/production-drift-detection) both operate on model outputs. Feature selection determines what goes into the model. These three projects form a coherent pipeline: select features carefully, monitor for drift, and quantify uncertainty in deployment. [Unified Time Series Foundation Model](https://github.com/royxforge/unified-time-series-foundation-model) extends the same philosophy to time series foundation models, where the 15 meta-features used for model selection are a forecasting-specific analog of the feature economy question studied here.
 
 ---
 
